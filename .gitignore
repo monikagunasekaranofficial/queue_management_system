@@ -1,0 +1,29 @@
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Large video & output files
+videos/*.mp4
+videos/*.avi
+videos/*.mov
+outputs/*.mp4
+outputs/*.avi
+
+# Ultralytics tracking logs
+tracking/runs/
+runs/
+
+# Duplicate model weights (keep only root yolo26s.pt if under 100MB)
+detection/*.pt
+tracking/*.pt
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+
+.idea/

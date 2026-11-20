@@ -1,0 +1,7 @@
+tracker_type: bytetrack
+track_high_thresh: 0.25   # Lowered from 0.5 so crowded/partially occluded people get IDs
+track_low_thresh: 0.10
+new_track_thresh: 0.25    # Lowered from 0.6 to initialize tracks immediately on the stairs
+track_buffer: 30
+match_thresh: 0.8
+fuse_score: True
